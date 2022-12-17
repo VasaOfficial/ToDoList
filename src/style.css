@@ -21,6 +21,7 @@ main {
   min-height: calc(97vh - 100px - 60px);
 }
 
+/* Form Menu */
 nav {
   width: 300px;
   background-color: rgb(200, 200, 200);
@@ -49,6 +50,25 @@ nav {
     font-family: inherit;
 }
 
+.submit-reset {
+  margin-top: 20px;
+}
+
+.submit, .reset {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inbox:hover, .add-project:hover, .submit:hover, .reset:hover {
+  background-color: #1DA1F2;
+}
+
+input {
+  width: 100%;
+}
+
+/* Inbox Screen */
 .project-screen {
   width: 100%;
   background-color: whitesmoke;
