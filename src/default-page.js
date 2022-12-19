@@ -1,3 +1,4 @@
 export const defaultPage = () => {
-  console.log('initial page')
+  const removeForm = document.querySelector(".todo-input")
+  removeForm.style.display = 'none';
 }
