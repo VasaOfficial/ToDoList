@@ -28,11 +28,16 @@
         <div class="todo-input">
           <form class="form">
             <label for="Title">Title:</label>
-            <input type="text" name="title" required />
-            <label for="Discription">Discription:</label>
-            <input type="text" name="discription" required />
-            <label for="date">Due Date:</label>
-            <input type="date" />
+            <input class="title" type="text" name="title" required />
+            <label for="Description">Description:</label>
+            <input
+              class="description"
+              type="text"
+              name="description"
+              required
+            />
+            <label for="Date">Due Date:</label>
+            <input class="date" type="date" />
           </form>
           <div class="submit-reset">
             <button class="submit">Submit Todo</button>
@@ -40,7 +45,9 @@
           </div>
         </div>
       </nav>
-      <div class="project-screen"></div>
+      <div class="project-screen">
+        <h1 class="inbox-title">Inbox</h1>
+      </div>
     </main>
     <footer>
       <p>Copyright © 2022 VasaOfficial</p>

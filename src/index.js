@@ -1,10 +1,9 @@
 import { defaultPage } from "./default-page.js";
-import { createTodo } from "./create-todo.js";
-import { addProject, clearForm } from "./dom-manip.js";
+import { addProject, clearForm, displayTodo, showInbox, submitBtn } from "./dom-manip.js";
 import './style.css';
 
 // first entering page
-defaultPage()
+defaultPage();
 
 // click events 
 let clickEvents = (function() {
@@ -14,4 +13,10 @@ let clickEvents = (function() {
 
   // reset form event 
   clearForm();
+
+  // submit form event
+  submitBtn();
+  
+  // event for showing inbox
+  showInbox();
 })();

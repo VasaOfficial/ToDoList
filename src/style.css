@@ -73,6 +73,8 @@ input {
   width: 100%;
   background-color: whitesmoke;
   padding: 40px;
+  display: none;
+  font-family: 'Rubik', sans-serif;
 }
 
 footer {
@@ -90,3 +92,4 @@ footer {
 #github {
   cursor: pointer;
 }
+
