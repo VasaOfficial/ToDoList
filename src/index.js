@@ -1,5 +1,5 @@
 import { defaultPage } from "./default-page.js";
-import { addProject, clearForm, displayTodo, showInbox, submitBtn } from "./dom-manip.js";
+import { addProject, clearForm, removeButton, showInbox, submitBtn } from "./dom-manip.js";
 import './style.css';
 
 // first entering page

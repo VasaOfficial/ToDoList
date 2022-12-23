@@ -14,7 +14,7 @@ export const addProject = () => {
 export const clearForm = () => {
   const resetBtn = document.querySelector('.reset')
   const form = document.querySelector('.form')
-  resetBtn.addEventListener('click', function() {
+  resetBtn.addEventListener('click', () => {
     form.reset();
   })
 }
@@ -22,7 +22,7 @@ export const clearForm = () => {
 // submit button
 export const submitBtn = () => {
   const submit = document.querySelector('.submit')
-  submit.addEventListener('click', function() {
+  submit.addEventListener('click', () => {
     createTodo();
   })
 }
@@ -31,7 +31,8 @@ export const submitBtn = () => {
 export const showInbox = () => {
   const inboxBtn = document.querySelector('.inbox')
   const projectScreen = document.querySelector('.project-screen')
-  inboxBtn.addEventListener('click', function() {
+  inboxBtn.addEventListener('click', () => {
     projectScreen.style.display = 'grid';
   })
 }
+

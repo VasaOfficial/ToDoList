@@ -93,3 +93,35 @@ footer {
   cursor: pointer;
 }
 
+/* Todo Cards*/
+.card {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Rubik', sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card h3 {
+  font-size: 18px;
+}
+
+.card p {
+  color: #1DA1F2;
+}
+
+.card p:last-of-type {
+  color: rgb(240, 77, 77);
+}
+
+.card button {
+  background-color: #1DA1F2;
+  border: none;
+  color: black;
+  padding: 15px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}

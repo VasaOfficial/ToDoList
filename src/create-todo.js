@@ -42,6 +42,7 @@ export const createTodo = () => {
   function createCard() {
     const projectScreen = document.querySelector('.project-screen');
     const card = document.createElement('div');
+    card.classList.add('card');
     card.innerHTML = `
       <h3>${todo.title}</h3>
       <p>${todo.description}</p>
