@@ -4,10 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/738aae3b12.js"
+      crossorigin="anonymous"
+    ></script>
     <title>ToDo List</title>
   </head>
   <body>
-    <div class="content"></div>
+    <header>
+      <i class="fa-solid fa-clipboard-list fa-3x"></i>
+      <h1>Todo List</h1>
+    </header>
+    <main>
+      <nav class="nav">
+        <button class="inbox">
+          <i class="fa-solid fa-inbox fa-2x"></i>
+          <h4>Inbox</h4>
+        </button>
+        <button class="add-project">
+          <i class="fa-solid fa-plus fa-2x"></i>
+          <h4>Add Todo</h4>
+        </button>
+        <div class="todo-input">
+          <form class="form">
+            <label for="Title">Title:</label>
+            <input class="title" type="text" name="title" required />
+            <label for="Description">Description:</label>
+            <input
+              class="description"
+              type="text"
+              name="description"
+              required
+            />
+            <label for="Date">Due Date:</label>
+            <input class="date" type="date" />
+          </form>
+          <div class="submit-reset">
+            <button class="submit">Submit Todo</button>
+            <button class="reset">Reset Todo</button>
+          </div>
+        </div>
+      </nav>
+      <div class="project-screen">
+        <h1 class="inbox-title">Inbox</h1>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © 2022 VasaOfficial</p>
+      <a href="https://github.com/VasaOfficial"
+        ><i class="fa-brands fa-github fa-2x" id="github"></i
+      ></a>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
